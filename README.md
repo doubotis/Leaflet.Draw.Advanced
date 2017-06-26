@@ -1,8 +1,11 @@
 # Leaflet.Draw.Advanced
 
+![Status:Development](https://img.shields.io/badge/status-development-orange.svg)
+
+
 ## Features
 * Allowing "lazy mode" for `L.Polyline` editing. In this mode, only nodes near the cursor are drawn.
-* Extending `L.Polyline` to `L.Route`, allowing to handle routes
-* `L.Route` can be inverted, and can take a `router`, that means a routing mechanism.
-* `L.Draw.Routing.Router` classes allows the use of routing mechanisms.
-* `L.Draw.routing.Router.OSM` to handle routing with OSM web-services.
+* Extending `L.Polyline` to `L.Route`. Represents routes.
+* `L.Route` has several additional features and can get a `router` object that tells how the routing must be done.
+* `L.Draw.Routing.Router` classes defines the use of routing mechanisms.
+* `L.Draw.routing.Router.OSM` handles routing with OSM web-services.

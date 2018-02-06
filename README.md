@@ -1,6 +1,6 @@
 # Leaflet.Draw.Advanced
 
-![Status:Development](https://img.shields.io/badge/status-development-orange.svg)
+![Status:Release](https://img.shields.io/badge/status-release-green.svg)
 
 
 ## Features
